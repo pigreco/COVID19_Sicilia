@@ -10,7 +10,6 @@
     - [province](#province)
   - [Compositore di stampe](#compositore-di-stampe)
     - [Atlas](#atlas)
-    - [Layout di stampa](#layout-di-stampa)
   - [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
   - [Riferimenti utili](#riferimenti-utili)
 
@@ -171,17 +170,10 @@ Vettore di copertura : layer `reg_provaut3857`, Font [`TRUENO`](https://www.wfon
 
 **Gif animata:**
 
-![](./imgs/covid14_atlas.gif)
+![](./stampe/covid16_atlas_prov.gif)
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
-### Layout di stampa
-
-Andamento Nazionale con grafici
-
-![](./imgs/layout_an.png)
-
-[↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
 ## Caratteristiche utilizzate nel progetto
 
