@@ -1,9 +1,9 @@
 <!-- TOC -->
 
-- [COVID19_Sicilia -- in lavorazione](#covid19sicilia----in-lavorazione)
+- [COVID-19 Sicilia](#covid-19-sicilia)
   - [Perché questo spazio](#perch%c3%a9-questo-spazio)
   - [File di progetto QGIS](#file-di-progetto-qgis)
-  - [Cosa c'è in questo repo -- in lavorazione](#cosa-c%c3%a8-in-questo-repo----in-lavorazione)
+  - [Cosa c'è in questo repo](#cosa-c%c3%a8-in-questo-repo)
   - [Espressione usata](#espressione-usata)
   - [Virtual File Format di GDAL/OGR](#virtual-file-format-di-gdalogr)
     - [regioni](#regioni)
@@ -15,8 +15,8 @@
 
 <!-- /TOC -->
 
-# COVID19_Sicilia -- in lavorazione
-Raccolta dati sul COVID19 per scopo informativo.
+# COVID-19 Sicilia
+Raccolta dati sul **COVID-19** per scopo informativo.
 
 ## Perché questo spazio
 
@@ -33,7 +33,7 @@ NB: il file di progetto è stato realizzato con [QGIS 3.12 București](https://q
 
 ---
 
-## Cosa c'è in questo repo -- in lavorazione
+## Cosa c'è in questo repo
 
 - cartella `imgs` contiene le immagini utilizzate nel progetto .qgs;
 - cartella `risorse` contiene i file utilizzati nel progetto, come:
