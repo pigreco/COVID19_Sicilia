@@ -1,0 +1,1511 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.12.0-București" saveUserFull="Salvatore Fiandaca" saveUser="pigre" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo-Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-group name="CSV remoti" checked="Qt::Checked" expanded="1">
+      <customproperties/>
+      <layer-tree-layer id="dpc_covid19_ita_province_7ab3dee8_869e_44be_b33a_3e2bc68fda80" name="dpc-covid19-ita-province" providerKey="ogr" source="./risorse/dpc-covid19-ita-province.vrt|layername=dpc-covid19-ita-province|subset=&quot;codice_regione&quot; = '19'" checked="Qt::Checked" expanded="1">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer id="dpc_covid19_ita_regioni_d8259e00_e630_4ad5_a93a_464002e72d4b" name="dpc-covid19-ita-regioni" providerKey="ogr" source="./risorse/dpc-covid19-ita-regioni.vrt|layername=dpc-covid19-ita-regioni|subset=&quot;codice_regione&quot; = '19'" checked="Qt::Checked" expanded="1">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group name="Limiti amministrativi" checked="Qt::Checked" expanded="1">
+      <customproperties/>
+      <layer-tree-layer id="comuni3857_2df2f69d_c0ef_4fe2_bf51_262a07745a2a" name="comuni3857" providerKey="ogr" source="./risorse/comuni3857.shp|layername=comuni3857" checked="Qt::Checked" expanded="1">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer id="province_ita_3c1f6b6b_4e74_48f6_838a_025df7973f8c" name="province_ita" providerKey="ogr" source="./risorse/province_ita.shp|layername=province_ita" checked="Qt::Checked" expanded="1">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer id="reg_provaut3857_14b7ac90_c5b7_4704_b9dd_07e65f862070" name="reg_provaut3857" providerKey="ogr" source="./risorse/reg_provaut3857.shp" checked="Qt::Checked" expanded="1">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <custom-order enabled="0">
+      <item>reg_provaut3857_14b7ac90_c5b7_4704_b9dd_07e65f862070</item>
+      <item>province_ita_3c1f6b6b_4e74_48f6_838a_025df7973f8c</item>
+      <item>comuni3857_2df2f69d_c0ef_4fe2_bf51_262a07745a2a</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings type="1" tolerance="12" enabled="0" mode="2" unit="1" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting type="1" id="reg_provaut3857_14b7ac90_c5b7_4704_b9dd_07e65f862070" tolerance="12" enabled="0" units="1"/>
+      <layer-setting type="1" id="comuni3857_2df2f69d_c0ef_4fe2_bf51_262a07745a2a" tolerance="12" enabled="0" units="1"/>
+      <layer-setting type="1" id="province_ita_3c1f6b6b_4e74_48f6_838a_025df7973f8c" tolerance="12" enabled="0" units="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>704571.93311335635371506</xmin>
+      <ymin>4187911.01368577312678099</ymin>
+      <xmax>2094779.63222089014016092</xmax>
+      <ymax>6000218.58541516307741404</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <DataPlotly>
+    <Option type="Map">
+      <Option type="Map" name="dynamic_properties">
+        <Option type="QString" name="name" value=""/>
+        <Option name="properties"/>
+        <Option type="QString" name="type" value="collection"/>
+      </Option>
+      <Option type="Map" name="plot_layout">
+        <Option type="QString" name="additional_info_expression" value=""/>
+        <Option type="QString" name="bar_mode" value="group"/>
+        <Option type="double" name="bargaps" value="0"/>
+        <Option type="bool" name="bins_check" value="false"/>
+        <Option type="bool" name="legend" value="true"/>
+        <Option type="QString" name="legend_orientation" value="v"/>
+        <Option type="invalid" name="legend_title"/>
+        <Option type="Map" name="polar">
+          <Option type="Map" name="angularaxis">
+            <Option type="QString" name="direction" value="clockwise"/>
+          </Option>
+        </Option>
+        <Option type="Map" name="range_slider">
+          <Option type="int" name="borderwidth" value="1"/>
+          <Option type="bool" name="visible" value="false"/>
+        </Option>
+        <Option type="QString" name="title" value=""/>
+        <Option type="invalid" name="x_inv"/>
+        <Option type="invalid" name="x_max"/>
+        <Option type="invalid" name="x_min"/>
+        <Option type="QString" name="x_title" value=""/>
+        <Option type="QString" name="x_type" value="linear"/>
+        <Option type="invalid" name="xaxis"/>
+        <Option type="invalid" name="y_inv"/>
+        <Option type="invalid" name="y_max"/>
+        <Option type="invalid" name="y_min"/>
+        <Option type="QString" name="y_title" value=""/>
+        <Option type="QString" name="y_type" value="linear"/>
+        <Option type="QString" name="z_title" value=""/>
+      </Option>
+      <Option type="Map" name="plot_properties">
+        <Option type="invalid" name="additional_hover_text"/>
+        <Option type="int" name="bins" value="10"/>
+        <Option type="QString" name="box_orientation" value="v"/>
+        <Option type="bool" name="box_outliers" value="false"/>
+        <Option type="bool" name="box_stat" value="false"/>
+        <Option type="QString" name="color_scale" value="Greys"/>
+        <Option type="bool" name="color_scale_data_defined_in_check" value="false"/>
+        <Option type="bool" name="color_scale_data_defined_in_invert_check" value="false"/>
+        <Option type="QString" name="cont_type" value="fill"/>
+        <Option type="QString" name="contour_type_combo" value="Riempimento"/>
+        <Option type="bool" name="cumulative" value="false"/>
+        <Option type="List" name="custom">
+          <Option type="QString" value=""/>
+        </Option>
+        <Option type="QString" name="hover_label_position" value="auto"/>
+        <Option type="invalid" name="hover_label_text"/>
+        <Option type="QString" name="hover_text" value="all"/>
+        <Option type="QString" name="in_color" value="#8ebad9"/>
+        <Option type="bool" name="invert_color_scale" value="false"/>
+        <Option type="QString" name="invert_hist" value="increasing"/>
+        <Option type="QString" name="line_combo" value="Linea continua"/>
+        <Option type="QString" name="line_dash" value="solid"/>
+        <Option type="QString" name="marker" value="markers"/>
+        <Option type="double" name="marker_size" value="10"/>
+        <Option type="int" name="marker_symbol" value="0"/>
+        <Option type="QString" name="marker_type_combo" value="Punti"/>
+        <Option type="double" name="marker_width" value="1"/>
+        <Option type="QString" name="name" value=""/>
+        <Option type="QString" name="normalization" value=""/>
+        <Option type="double" name="opacity" value="1"/>
+        <Option type="QString" name="out_color" value="#1f77b4"/>
+        <Option type="QString" name="point_combo" value=""/>
+        <Option type="bool" name="selected_features_only" value="false"/>
+        <Option type="bool" name="show_colorscale_legend" value="false"/>
+        <Option type="bool" name="show_lines" value="true"/>
+        <Option type="bool" name="show_lines_check" value="true"/>
+        <Option type="bool" name="show_mean_line" value="true"/>
+        <Option type="bool" name="violin_box" value="true"/>
+        <Option type="QString" name="violin_side" value="both"/>
+        <Option type="bool" name="visible_features_only" value="false"/>
+        <Option type="QString" name="x_name" value=""/>
+        <Option type="QString" name="y_name" value=""/>
+        <Option type="QString" name="z_name" value=""/>
+      </Option>
+      <Option type="QString" name="plot_type" value="scatter"/>
+      <Option type="QString" name="source_layer_id" value="dpc_covid19_ita_regioni_d8259e00_e630_4ad5_a93a_464002e72d4b"/>
+    </Option>
+  </DataPlotly>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendgroup name="CSV remoti" open="true" checked="Qt::Checked">
+      <legendlayer drawingOrder="-1" name="dpc-covid19-ita-province" open="true" checked="Qt::Checked" showFeatureCount="0">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile layerid="dpc_covid19_ita_province_7ab3dee8_869e_44be_b33a_3e2bc68fda80" isInOverview="0" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" name="dpc-covid19-ita-regioni" open="true" checked="Qt::Checked" showFeatureCount="0">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile layerid="dpc_covid19_ita_regioni_d8259e00_e630_4ad5_a93a_464002e72d4b" isInOverview="0" visible="1"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup name="Limiti amministrativi" open="true" checked="Qt::Checked">
+      <legendlayer drawingOrder="-1" name="comuni3857" open="true" checked="Qt::Checked" showFeatureCount="0">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile layerid="comuni3857_2df2f69d_c0ef_4fe2_bf51_262a07745a2a" isInOverview="0" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" name="province_ita" open="true" checked="Qt::Checked" showFeatureCount="0">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile layerid="province_ita_3c1f6b6b_4e74_48f6_838a_025df7973f8c" isInOverview="0" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" name="reg_provaut3857" open="true" checked="Qt::Checked" showFeatureCount="0">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile layerid="reg_provaut3857_14b7ac90_c5b7_4704_b9dd_07e65f862070" isInOverview="0" visible="1"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" type="vector" maxScale="0" labelsEnabled="0" readOnly="0" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyDrawingHints="1" minScale="100000000" simplifyLocal="1" autoRefreshEnabled="0" geometry="Polygon" refreshOnNotifyEnabled="0" autoRefreshTime="0" wkbType="MultiPolygon" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>1327564.69276954047381878</xmin>
+        <ymin>4231061.19396504480391741</ymin>
+        <xmax>1742476.80817575007677078</xmax>
+        <ymax>4694795.91745494026690722</ymax>
+      </extent>
+      <id>comuni3857_2df2f69d_c0ef_4fe2_bf51_262a07745a2a</id>
+      <datasource>./risorse/comuni3857.shp|layername=comuni3857</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>comuni3857</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="231,113,72,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="pk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_rip">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_reg">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_prov">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_cm">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_uts">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pro_com">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pro_com_t">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="comune">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="comune_a">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cc_uts">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="pk"/>
+        <alias name="" index="1" field="cod_rip"/>
+        <alias name="" index="2" field="cod_reg"/>
+        <alias name="" index="3" field="cod_prov"/>
+        <alias name="" index="4" field="cod_cm"/>
+        <alias name="" index="5" field="cod_uts"/>
+        <alias name="" index="6" field="pro_com"/>
+        <alias name="" index="7" field="pro_com_t"/>
+        <alias name="" index="8" field="comune"/>
+        <alias name="" index="9" field="comune_a"/>
+        <alias name="" index="10" field="cc_uts"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="pk" applyOnUpdate="0"/>
+        <default expression="" field="cod_rip" applyOnUpdate="0"/>
+        <default expression="" field="cod_reg" applyOnUpdate="0"/>
+        <default expression="" field="cod_prov" applyOnUpdate="0"/>
+        <default expression="" field="cod_cm" applyOnUpdate="0"/>
+        <default expression="" field="cod_uts" applyOnUpdate="0"/>
+        <default expression="" field="pro_com" applyOnUpdate="0"/>
+        <default expression="" field="pro_com_t" applyOnUpdate="0"/>
+        <default expression="" field="comune" applyOnUpdate="0"/>
+        <default expression="" field="comune_a" applyOnUpdate="0"/>
+        <default expression="" field="cc_uts" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="pk" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_rip" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_reg" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_prov" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_cm" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_uts" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="pro_com" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="pro_com_t" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="comune" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="comune_a" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cc_uts" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="pk"/>
+        <constraint desc="" exp="" field="cod_rip"/>
+        <constraint desc="" exp="" field="cod_reg"/>
+        <constraint desc="" exp="" field="cod_prov"/>
+        <constraint desc="" exp="" field="cod_cm"/>
+        <constraint desc="" exp="" field="cod_uts"/>
+        <constraint desc="" exp="" field="pro_com"/>
+        <constraint desc="" exp="" field="pro_com_t"/>
+        <constraint desc="" exp="" field="comune"/>
+        <constraint desc="" exp="" field="comune_a"/>
+        <constraint desc="" exp="" field="cc_uts"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" autoRefreshEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08" refreshOnNotifyEnabled="0" geometry="No geometry" wkbType="NoGeometry" maxScale="0" autoRefreshTime="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories">
+      <id>dpc_covid19_ita_province_7ab3dee8_869e_44be_b33a_3e2bc68fda80</id>
+      <datasource>./risorse/dpc-covid19-ita-province.vrt|layername=dpc-covid19-ita-province|subset="codice_regione" = '19'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>dpc-covid19-ita-province</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="&quot;denominazione_regione&quot;" key="dualview/previewExpressions"/>
+      </customproperties>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="data">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="stato">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="codice_regione">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="denominazione_regione">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="codice_provincia">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="denominazione_provincia">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sigla_provincia">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="totale_casi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="data"/>
+        <alias name="" index="1" field="stato"/>
+        <alias name="" index="2" field="codice_regione"/>
+        <alias name="" index="3" field="denominazione_regione"/>
+        <alias name="" index="4" field="codice_provincia"/>
+        <alias name="" index="5" field="denominazione_provincia"/>
+        <alias name="" index="6" field="sigla_provincia"/>
+        <alias name="" index="7" field="totale_casi"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="data" applyOnUpdate="0"/>
+        <default expression="" field="stato" applyOnUpdate="0"/>
+        <default expression="" field="codice_regione" applyOnUpdate="0"/>
+        <default expression="" field="denominazione_regione" applyOnUpdate="0"/>
+        <default expression="" field="codice_provincia" applyOnUpdate="0"/>
+        <default expression="" field="denominazione_provincia" applyOnUpdate="0"/>
+        <default expression="" field="sigla_provincia" applyOnUpdate="0"/>
+        <default expression="" field="totale_casi" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="data" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="stato" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="codice_regione" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="denominazione_regione" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="codice_provincia" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="denominazione_provincia" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="sigla_provincia" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="totale_casi" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="data"/>
+        <constraint desc="" exp="" field="stato"/>
+        <constraint desc="" exp="" field="codice_regione"/>
+        <constraint desc="" exp="" field="denominazione_regione"/>
+        <constraint desc="" exp="" field="codice_provincia"/>
+        <constraint desc="" exp="" field="denominazione_provincia"/>
+        <constraint desc="" exp="" field="sigla_provincia"/>
+        <constraint desc="" exp="" field="totale_casi"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="1" actionWidgetStyle="dropDown" sortExpression="&quot;data&quot;">
+        <columns>
+          <column type="field" name="data" width="192" hidden="0"/>
+          <column type="field" name="stato" width="-1" hidden="0"/>
+          <column type="field" name="codice_regione" width="-1" hidden="0"/>
+          <column type="field" name="denominazione_regione" width="-1" hidden="0"/>
+          <column type="field" name="codice_provincia" width="-1" hidden="0"/>
+          <column type="field" name="denominazione_provincia" width="260" hidden="0"/>
+          <column type="field" name="sigla_provincia" width="-1" hidden="0"/>
+          <column type="field" name="totale_casi" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"denominazione_regione"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" autoRefreshEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08" refreshOnNotifyEnabled="0" geometry="No geometry" wkbType="NoGeometry" maxScale="0" autoRefreshTime="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories">
+      <id>dpc_covid19_ita_regioni_d8259e00_e630_4ad5_a93a_464002e72d4b</id>
+      <datasource>./risorse/dpc-covid19-ita-regioni.vrt|layername=dpc-covid19-ita-regioni|subset="codice_regione" = '19'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>dpc-covid19-ita-regioni</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="&quot;denominazione_regione&quot;" key="dualview/previewExpressions"/>
+      </customproperties>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="data">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="long">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="stato">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="codice_regione">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="denominazione_regione">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ricoverati_con_sintomi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="terapia_intensiva">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="totale_ospedalizzati">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="isolamento_domiciliare">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="totale_attualmente_positivi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nuovi_attualmente_positivi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dimessi_guariti">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="deceduti">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="totale_casi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tamponi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="data"/>
+        <alias name="" index="1" field="lat"/>
+        <alias name="" index="2" field="long"/>
+        <alias name="" index="3" field="stato"/>
+        <alias name="" index="4" field="codice_regione"/>
+        <alias name="" index="5" field="denominazione_regione"/>
+        <alias name="" index="6" field="ricoverati_con_sintomi"/>
+        <alias name="" index="7" field="terapia_intensiva"/>
+        <alias name="" index="8" field="totale_ospedalizzati"/>
+        <alias name="" index="9" field="isolamento_domiciliare"/>
+        <alias name="" index="10" field="totale_attualmente_positivi"/>
+        <alias name="" index="11" field="nuovi_attualmente_positivi"/>
+        <alias name="" index="12" field="dimessi_guariti"/>
+        <alias name="" index="13" field="deceduti"/>
+        <alias name="" index="14" field="totale_casi"/>
+        <alias name="" index="15" field="tamponi"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="data" applyOnUpdate="0"/>
+        <default expression="" field="lat" applyOnUpdate="0"/>
+        <default expression="" field="long" applyOnUpdate="0"/>
+        <default expression="" field="stato" applyOnUpdate="0"/>
+        <default expression="" field="codice_regione" applyOnUpdate="0"/>
+        <default expression="" field="denominazione_regione" applyOnUpdate="0"/>
+        <default expression="" field="ricoverati_con_sintomi" applyOnUpdate="0"/>
+        <default expression="" field="terapia_intensiva" applyOnUpdate="0"/>
+        <default expression="" field="totale_ospedalizzati" applyOnUpdate="0"/>
+        <default expression="" field="isolamento_domiciliare" applyOnUpdate="0"/>
+        <default expression="" field="totale_attualmente_positivi" applyOnUpdate="0"/>
+        <default expression="" field="nuovi_attualmente_positivi" applyOnUpdate="0"/>
+        <default expression="" field="dimessi_guariti" applyOnUpdate="0"/>
+        <default expression="" field="deceduti" applyOnUpdate="0"/>
+        <default expression="" field="totale_casi" applyOnUpdate="0"/>
+        <default expression="" field="tamponi" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="data" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="lat" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="long" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="stato" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="codice_regione" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="denominazione_regione" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ricoverati_con_sintomi" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="terapia_intensiva" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="totale_ospedalizzati" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="isolamento_domiciliare" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="totale_attualmente_positivi" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="nuovi_attualmente_positivi" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="dimessi_guariti" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="deceduti" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="totale_casi" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="tamponi" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="data"/>
+        <constraint desc="" exp="" field="lat"/>
+        <constraint desc="" exp="" field="long"/>
+        <constraint desc="" exp="" field="stato"/>
+        <constraint desc="" exp="" field="codice_regione"/>
+        <constraint desc="" exp="" field="denominazione_regione"/>
+        <constraint desc="" exp="" field="ricoverati_con_sintomi"/>
+        <constraint desc="" exp="" field="terapia_intensiva"/>
+        <constraint desc="" exp="" field="totale_ospedalizzati"/>
+        <constraint desc="" exp="" field="isolamento_domiciliare"/>
+        <constraint desc="" exp="" field="totale_attualmente_positivi"/>
+        <constraint desc="" exp="" field="nuovi_attualmente_positivi"/>
+        <constraint desc="" exp="" field="dimessi_guariti"/>
+        <constraint desc="" exp="" field="deceduti"/>
+        <constraint desc="" exp="" field="totale_casi"/>
+        <constraint desc="" exp="" field="tamponi"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="1" actionWidgetStyle="dropDown" sortExpression="&quot;data&quot;">
+        <columns>
+          <column type="field" name="data" width="223" hidden="0"/>
+          <column type="field" name="lat" width="-1" hidden="0"/>
+          <column type="field" name="long" width="-1" hidden="0"/>
+          <column type="field" name="stato" width="-1" hidden="0"/>
+          <column type="field" name="codice_regione" width="-1" hidden="0"/>
+          <column type="field" name="denominazione_regione" width="-1" hidden="0"/>
+          <column type="field" name="ricoverati_con_sintomi" width="-1" hidden="0"/>
+          <column type="field" name="terapia_intensiva" width="-1" hidden="0"/>
+          <column type="field" name="totale_ospedalizzati" width="-1" hidden="0"/>
+          <column type="field" name="isolamento_domiciliare" width="-1" hidden="0"/>
+          <column type="field" name="totale_attualmente_positivi" width="-1" hidden="0"/>
+          <column type="field" name="nuovi_attualmente_positivi" width="-1" hidden="0"/>
+          <column type="field" name="dimessi_guariti" width="-1" hidden="0"/>
+          <column type="field" name="deceduti" width="-1" hidden="0"/>
+          <column type="field" name="totale_casi" width="-1" hidden="0"/>
+          <column type="field" name="tamponi" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"denominazione_regione"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" type="vector" maxScale="0" labelsEnabled="0" readOnly="0" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyDrawingHints="1" minScale="100000000" simplifyLocal="1" autoRefreshEnabled="0" geometry="Polygon" refreshOnNotifyEnabled="0" autoRefreshTime="0" wkbType="MultiPolygon" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>737672.11642544041387737</xmin>
+        <ymin>4231061.19396504480391741</ymin>
+        <xmax>2061679.44890880561433733</xmax>
+        <ymax>5957068.40513589233160019</ymax>
+      </extent>
+      <id>province_ita_3c1f6b6b_4e74_48f6_838a_025df7973f8c</id>
+      <datasource>./risorse/province_ita.shp|layername=province_ita</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>province_ita</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,158,23,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="pk_uid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_rip">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_reg">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_prov">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_cm">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_uts">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="den_prov">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="den_cm">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="den_uts">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sigla">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tipo_uts">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="pk_uid"/>
+        <alias name="" index="1" field="cod_rip"/>
+        <alias name="" index="2" field="cod_reg"/>
+        <alias name="" index="3" field="cod_prov"/>
+        <alias name="" index="4" field="cod_cm"/>
+        <alias name="" index="5" field="cod_uts"/>
+        <alias name="" index="6" field="den_prov"/>
+        <alias name="" index="7" field="den_cm"/>
+        <alias name="" index="8" field="den_uts"/>
+        <alias name="" index="9" field="sigla"/>
+        <alias name="" index="10" field="tipo_uts"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="pk_uid" applyOnUpdate="0"/>
+        <default expression="" field="cod_rip" applyOnUpdate="0"/>
+        <default expression="" field="cod_reg" applyOnUpdate="0"/>
+        <default expression="" field="cod_prov" applyOnUpdate="0"/>
+        <default expression="" field="cod_cm" applyOnUpdate="0"/>
+        <default expression="" field="cod_uts" applyOnUpdate="0"/>
+        <default expression="" field="den_prov" applyOnUpdate="0"/>
+        <default expression="" field="den_cm" applyOnUpdate="0"/>
+        <default expression="" field="den_uts" applyOnUpdate="0"/>
+        <default expression="" field="sigla" applyOnUpdate="0"/>
+        <default expression="" field="tipo_uts" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="pk_uid" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_rip" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_reg" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_prov" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_cm" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_uts" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="den_prov" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="den_cm" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="den_uts" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="sigla" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="tipo_uts" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="pk_uid"/>
+        <constraint desc="" exp="" field="cod_rip"/>
+        <constraint desc="" exp="" field="cod_reg"/>
+        <constraint desc="" exp="" field="cod_prov"/>
+        <constraint desc="" exp="" field="cod_cm"/>
+        <constraint desc="" exp="" field="cod_uts"/>
+        <constraint desc="" exp="" field="den_prov"/>
+        <constraint desc="" exp="" field="den_cm"/>
+        <constraint desc="" exp="" field="den_uts"/>
+        <constraint desc="" exp="" field="sigla"/>
+        <constraint desc="" exp="" field="tipo_uts"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" type="vector" maxScale="0" labelsEnabled="0" readOnly="0" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyDrawingHints="1" minScale="100000000" simplifyLocal="1" autoRefreshEnabled="0" geometry="Polygon" refreshOnNotifyEnabled="0" autoRefreshTime="0" wkbType="MultiPolygon" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>737672.11642544041387737</xmin>
+        <ymin>4231175.95217627845704556</ymin>
+        <xmax>2061679.44890880561433733</xmax>
+        <ymax>5957068.40513589233160019</ymax>
+      </extent>
+      <id>reg_provaut3857_14b7ac90_c5b7_4704_b9dd_07e65f862070</id>
+      <datasource>./risorse/reg_provaut3857.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>reg_provaut3857</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="196,60,57,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="COD_RIP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COD_REG">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DEN_REG">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cod_ISTAT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="COD_RIP"/>
+        <alias name="" index="1" field="COD_REG"/>
+        <alias name="" index="2" field="DEN_REG"/>
+        <alias name="" index="3" field="cod_ISTAT"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="COD_RIP" applyOnUpdate="0"/>
+        <default expression="" field="COD_REG" applyOnUpdate="0"/>
+        <default expression="" field="DEN_REG" applyOnUpdate="0"/>
+        <default expression="" field="cod_ISTAT" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="COD_RIP" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="COD_REG" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="DEN_REG" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" constraints="0" field="cod_ISTAT" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="COD_RIP"/>
+        <constraint desc="" exp="" field="COD_REG"/>
+        <constraint desc="" exp="" field="DEN_REG"/>
+        <constraint desc="" exp="" field="cod_ISTAT"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="reg_provaut3857_14b7ac90_c5b7_4704_b9dd_07e65f862070"/>
+    <layer id="province_ita_3c1f6b6b_4e74_48f6_838a_025df7973f8c"/>
+    <layer id="comuni3857_2df2f69d_c0ef_4fe2_bf51_262a07745a2a"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Salvatore Fiandaca</author>
+    <creation>2020-03-17T10:12:29</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option type="QChar" name="decimal_separator" value=""/>
+        <Option type="int" name="decimals" value="6"/>
+        <Option type="int" name="direction_format" value="0"/>
+        <Option type="int" name="rounding_type" value="0"/>
+        <Option type="bool" name="show_plus" value="false"/>
+        <Option type="bool" name="show_thousand_separator" value="true"/>
+        <Option type="bool" name="show_trailing_zeros" value="false"/>
+        <Option type="QChar" name="thousand_separator" value=""/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>
