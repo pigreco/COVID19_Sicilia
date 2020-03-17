@@ -37,23 +37,18 @@ NB: il file di progetto è stato realizzato con [QGIS 3.12 București](https://q
 
 - cartella `imgs` contiene le immagini utilizzate nel progetto .qgs;
 - cartella `risorse` contiene i file utilizzati nel progetto, come:
-  - `nroVerdeEmergenzaCOVID19.csv` è una tabella con i numeri verdi regionali per emergenza sanitaria;
-  - `nroVerdeEmergenzaCOVID19.csvt` file di servizio per definire la tipologia di campi;
-  - shapefile `reg_istat3857.*` limiti amministrativi regionali ISTAT 2019, EPSG:3857;
+  - shapefile `reg_provaut3857.*` limiti amministrativi regionali ISTAT 2019, EPSG:3857;
   - shapefile* `reg_provaut3857.*` limiti amministrativi regionali ISTAT 2019 con Prov. Autonome Trento e Bolzano, EPSG:3857;
   - file `codid19-regioni.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, con geometry Point;
-  - file `codid19-regioni_noWKT.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, no geometry;
-  - file `codid19-regioni_dw.vrt` collegato a data.word, ma non funziona in QGIS;
-  - file `config_grafici_casi_totali.xml` di configurazione grafici atlas;
-  - file `COVID19_3857_noVL_ogrVRT_provaut.qpt` modello layouts;
-  - file `stemmi_regione.csv` stemmi regionali;
+  - file `dpc-covid19-ita-province.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, no geometry;
+  - file `dpc-covid19-ita-regioni.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, no geometry;;
+  - file `regione.xml` di configurazione grafici atlas;
+  - file `province.xml` di configurazione grafici atlas;
   - file `world_map.gpkg` geopackage con la world map;
   - file `codid19-andamento_nazione.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub;
+  - file `CHANGELOG.md` file con le novità;
 - cartella `PDF` stampe giornaliere dell'Atlas;
-- file `COVID19_3857_noVL.qgs` è il file di progetto QGIS in formato `.qgs` (senza usare Virtual layer), EPSG:3857;
-- file `COVID19_3857.qgs` è il file di progetto QGIS in formato `.qgs` (usa Virtual layer), EPSG:3857;
-- file `COVID19_3857_noVL_ogrVRT.qgs` è il file di progetto QGIS in formato `.qgs`, EPSG:3857 (`OLD-main`), usa OGRVRT;
-- file `COVID19_3857_noVL_ogrVRT_provaut.qgs` è il file di progetto QGIS in formato `.qgs`, EPSG:3857 (`main`), usa OGRVRT;
+- file `progetto_sicilia_3857.qgs` è il file di progetto QGIS in formato `.qgs`, EPSG:3857;
 - file `license` è il file che definisce la licenza del repository;
 - file `README.md` è questo file, con le info.
 
@@ -61,31 +56,38 @@ NB: il file di progetto è stato realizzato con [QGIS 3.12 București](https://q
 
 ## Espressione usata
 
-Per calcolo valori incrementali giornalieri è stata usata la seguente espressione nel Campo Y dei grafici `Scatter Plot`
+Per etichettare le province e la regione, con valore attuale e incremento giornaliero:
 
 ```
-with_variable(
-'my_exp', 
-array_find(  
-array_agg( 
-expression:= "data" , group_by:= "codice_regione" ,
-order_by:="data"),"data"),
-if( 
-to_int(@my_exp) = 0, 
-(array_agg( 
-            expression:=  "terapia_intensiva" , 
-            group_by:= "codice_regione" ,
-            order_by:=  "data"  )[0]),
-("terapia_intensiva"  -
-(array_agg( 
-expression:= "terapia_intensiva", 
-group_by:= "codice_regione" ,
-order_by:=  "data"  )[to_int(@my_exp)-1]))))
+ relation_aggregate( 
+ relation:='rel_reg',
+ aggregate:='array_agg',
+ expression:="totale_casi")  [-1] 
+ || ' (' ||
+if ( ( to_int( relation_aggregate( 
+ relation:='rel_reg',
+ aggregate:='array_agg',
+ expression:="totale_casi")  [-1] ) 
+  - 
+ to_int( relation_aggregate( 
+ relation:='rel_reg',
+ aggregate:='array_agg',
+ expression:="totale_casi") [-2 ] ) ) > 0, '+', '' ) 
+ ||  
+  ( to_int( relation_aggregate( 
+ relation:='rel_reg',
+ aggregate:='array_agg',
+ expression:="totale_casi")  [-1] ) 
+  - 
+ to_int( relation_aggregate( 
+ relation:='rel_reg',
+ aggregate:='array_agg',
+ expression:="totale_casi") [-2 ] ) ) 
+ || ') '
 ```
 
-PS: per maggiori info sull'espressione: <https://pigrecoinfinito.com/2020/03/10/qgis-creare-grafici-con-incrementi-giornalieri/>
 
-![](https://pigrecoinfinito.files.wordpress.com/2020/03/image-25.png)
+![](./imgs/etichetta_incremento.png)
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
