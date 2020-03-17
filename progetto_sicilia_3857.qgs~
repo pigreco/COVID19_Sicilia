@@ -4727,7 +4727,7 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent xmax="1673549.7830587022472173" ymin="4372955.22007526643574238" xmin="1592397.84448132128454745" ymax="4481021.71417703852057457"/>
+        <Extent xmax="1703561.46618401748128235" ymin="4436133.54993719048798084" xmin="1592621.78684649034403265" ymax="4583867.0780937559902668"/>
         <LayerSet/>
         <AtlasMap margin="0.10000000000000001" atlasDriven="1" scalingMode="2"/>
         <labelBlockingItems/>
