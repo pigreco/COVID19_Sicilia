@@ -11,6 +11,7 @@
   - [Compositore di stampe](#compositore-di-stampe)
     - [Atlas](#atlas)
   - [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
+  - [Come usare questo repo](#come-usare-questo-repo)
   - [Riferimenti utili](#riferimenti-utili)
 
 <!-- /TOC -->
@@ -193,6 +194,28 @@ Vettore di copertura : layer `reg_provaut3857`, Font [`TRUENO`](https://www.wfon
 12. Decorazioni: Copyright, Immagine e estensioni layout
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
+
+## Come usare questo repo
+
+Il progetto QGIS presente in questo repository è collegato direttamente con i dati del [DPC](https://github.com/pcm-dpc/COVID-19) (Dipartimento di Protezione Civile).
+
+Per usufruire del progetto QGIS, ci sono due modi:
+
+1. **metodo statico**: scaricare la cartella in locale;
+
+![](./imgs/download_repo.png)
+
+2. **metodo dinamico**: clonare il repository in locale;
+
+![](./imgs/clone_repo.png)
+
+Usando [Visual Studio Code](https://code.visualstudio.com/) (e dopo aver installato git) clonare il repository:
+
+- aprire **Visual Studio Code**, `ctrl+shift+P`, selezionare `clona` e incollare il link copiato prima (2);
+- dopo l'invio, **Visual Studio Code** chiderà dove clonare il repo, indicate una cartella e poi `OK`;
+- per `sincronizzare` la cartella clonata con il repository remoto, aprire **Visial Studio code**, aprire la cartella del repository e cliccare su `sincronizza`, icona in basso a sinistra:
+
+![](./imgs/sincronizza.png)
 
 ## Riferimenti utili
 
