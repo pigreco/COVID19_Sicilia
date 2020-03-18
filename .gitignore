@@ -1,4 +1,2 @@
-*.gpkg
-*.gpkg-shm
-*.gpkg-wal
+world_map.*
 *.qgs~
