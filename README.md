@@ -1,6 +1,6 @@
 <!-- TOC -->
 
-- [COVID-19 Sicilia](#covid-19-sicilia)
+- [Pandemia COVID-19 Sicilia](#pandemia-covid-19-sicilia)
   - [Perché questo spazio](#perch%c3%a9-questo-spazio)
   - [File di progetto QGIS](#file-di-progetto-qgis)
   - [Cosa c'è in questo repo](#cosa-c%c3%a8-in-questo-repo)
@@ -16,21 +16,21 @@
 
 <!-- /TOC -->
 
-# COVID-19 Sicilia
+# Pandemia COVID-19 Sicilia
 Raccolta dati sul **COVID-19** per scopo informativo.
 
 ## Perché questo spazio
 
-Progetto QGIS per la visualizzazione dei dati COVID-19 attraverso un atlas con grafici dinamici - regioni e province ISTAT - fonte : https://github.com/pcm-dpc/COVID-19
+In questo repository è presente un Progetto [QGIS](https://qgis.org/it/site/) per la visualizzazione dei dati della **Pandemia COVID-19** attraverso un atlas con grafici dinamici - regioni e province ISTAT (personalizzato per la Regione SIciliana)- fonte : https://github.com/pcm-dpc/COVID-19
 
 ## File di progetto QGIS
 
-Il file di progetto QGIS (COVID19_3857_provaut) utilizza come fonte dati il file dpc-covid19-ita-regioni.csv presente nel repository ufficiale del PCM-DPC tramite Protocollo HTTPS, quindi il file si aggiorna automaticamente:
+Il file di progetto QGIS (`COVID19_3857_provaut.qgs`) utilizza come fonte dati il file `dpc-covid19-ita-regioni.csv` presente nel repository ufficiale del [`PCM-DPC`](https://github.com/pcm-dpc/COVID-19) tramite Protocollo HTTPS, quindi il file è sempre aggiornato e in linea con quello del Dipartimento di Protetezione Civile Nazionale:
 
 ![](imgs/https.png)
 
 ---
-NB: il file di progetto è stato realizzato con [QGIS 3.12 București](https://qgis.org/it/site/) e Plugin [DataPlotly 3.5](https://github.com/ghtmtt/DataPlotly)
+**NB:** il file di progetto è stato realizzato con [QGIS 3.12 București](https://qgis.org/it/site/) e Plugin [DataPlotly 3.5](https://github.com/ghtmtt/DataPlotly)
 
 ---
 
@@ -216,6 +216,11 @@ Usando [Visual Studio Code](https://code.visualstudio.com/) (e dopo aver install
 - per `sincronizzare` la cartella clonata con il repository remoto, aprire **Visial Studio code**, aprire la cartella del repository e cliccare su `sincronizza`, icona in basso a sinistra:
 
 ![](./imgs/sincronizza.png)
+
+**Video demo**
+
+[![](https://img.youtube.com/vi/ZSeHD7RGvIA/0.jpg)](https://youtu.be/ZSeHD7RGvIA "QGIS")
+
 
 ## Riferimenti utili
 
