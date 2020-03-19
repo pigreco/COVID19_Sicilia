@@ -12,6 +12,7 @@
     - [Atlas](#atlas)
   - [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
   - [Come usare questo repo](#come-usare-questo-repo)
+  - [Dichiarazione di Pandemia](#dichiarazione-di-pandemia)
   - [Riferimenti utili](#riferimenti-utili)
 
 <!-- /TOC -->
@@ -220,6 +221,10 @@ Usando [Visual Studio Code](https://code.visualstudio.com/) (e dopo aver install
 **Video demo**
 
 [![](https://img.youtube.com/vi/ZSeHD7RGvIA/0.jpg)](https://youtu.be/ZSeHD7RGvIA "QGIS")
+
+## Dichiarazione di Pandemia 
+
+- [Ministero della Salute 11/03/2020](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioNotizieNuovoCoronavirus.jsp?lingua=italiano&menu=notizie&p=dalministero&id=4209)
 
 
 ## Riferimenti utili

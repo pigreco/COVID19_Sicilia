@@ -4671,7 +4671,7 @@ def my_form_open(dialog, layer, feature):
         <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
         <labelBlockingItems/>
       </LayoutItem>
-      <LayoutItem uuid="{ba626e8e-d9a7-4f73-a8ce-a13e22fd5280}" valign="128" htmlState="0" referencePoint="0" templateUuid="{ba626e8e-d9a7-4f73-a8ce-a13e22fd5280}" id="" itemRotation="0" position="12.2719,2.21747,mm" zValue="8" size="272.456,21.0459,mm" excludeFromExports="0" visibility="1" labelText="COVID 19 - Sicilia - Province" marginX="0" positionOnPage="12.2719,2.21747,mm" type="65641" groupUuid="" marginY="0" background="false" outlineWidthM="0.3,mm" positionLock="false" opacity="1" halign="4" blendMode="0" frameJoinStyle="miter" frame="false">
+      <LayoutItem uuid="{ba626e8e-d9a7-4f73-a8ce-a13e22fd5280}" valign="128" htmlState="0" referencePoint="0" templateUuid="{ba626e8e-d9a7-4f73-a8ce-a13e22fd5280}" id="" itemRotation="0" position="12.2719,2.21747,mm" zValue="8" size="272.456,21.0459,mm" excludeFromExports="0" visibility="1" labelText="Pandemia COVID 19 - Sicilia - Province" marginX="0" positionOnPage="12.2719,2.21747,mm" type="65641" groupUuid="" marginY="0" background="false" outlineWidthM="0.3,mm" positionLock="false" opacity="1" halign="4" blendMode="0" frameJoinStyle="miter" frame="false">
         <FrameColor red="0" blue="0" green="0" alpha="255"/>
         <BackgroundColor red="255" blue="255" green="255" alpha="255"/>
         <LayoutObject>
@@ -4684,7 +4684,7 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <LabelFont description="Trueno,34,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+        <LabelFont description="Trueno,32,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
         <FontColor red="0" blue="0" green="0" alpha="255"/>
       </LayoutItem>
       <LayoutItem uuid="{2151c5ea-0a6b-4062-9d0f-804675bd053b}" valign="128" htmlState="0" referencePoint="0" templateUuid="{2151c5ea-0a6b-4062-9d0f-804675bd053b}" id="" itemRotation="0" position="136.9,200.212,mm" zValue="7" size="23.2,6.66034,mm" excludeFromExports="0" visibility="1" labelText="[% @atlas_featurenumber  || '/' ||  @atlas_totalfeatures %]" marginX="0" positionOnPage="136.9,200.212,mm" type="65641" groupUuid="" marginY="0" background="false" outlineWidthM="0.3,mm" positionLock="false" opacity="1" halign="4" blendMode="0" frameJoinStyle="miter" frame="false">
@@ -4867,7 +4867,7 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent xmin="1592621.78684649034403265" ymin="4436133.54993719048798084" xmax="1703561.46618401748128235" ymax="4583867.07809375692158937"/>
+        <Extent xmin="1560389.13660456263460219" ymin="4458067.12257008627057076" xmax="1655064.03762765205465257" ymax="4584141.55544690322130919"/>
         <LayerSet/>
         <AtlasMap atlasDriven="1" scalingMode="2" margin="0.10000000000000001"/>
         <labelBlockingItems/>
