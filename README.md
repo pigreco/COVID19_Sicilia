@@ -49,6 +49,8 @@ Il file di progetto QGIS (`COVID19_3857_provaut.qgs`) utilizza come fonte dati i
   - file `world_map.gpkg` geopackage con la world map;
   - file `codid19-andamento_nazione.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub;
   - file `CHANGELOG.md` file con le novità;
+  - file `dpc-covid19-ita-regioni-latest.vrt`;  
+  - file `dpc-covid19-ita-province-latest.vrt`;
 - cartella `PDF` stampe giornaliere dell'Atlas;
 - file `progetto_sicilia_3857.qgs` è il file di progetto QGIS in formato `.qgs`, EPSG:3857;
 - file `license` è il file che definisce la licenza del repository;
