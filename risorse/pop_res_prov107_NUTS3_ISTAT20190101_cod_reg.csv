@@ -1,0 +1,108 @@
+NUTS3,cod_reg,COD_UTS_AM,COD_UTS_ST,DEN_UTS,TIPO_UTS,Sigla,COD_PROV_Storico,province,pop_res
+ITC14,1,103,103,Verbano-Cusio-Ossola,Provincia,VB,103,Verbano-Cusio-Ossola,158349
+ITC13,1,096,096,Biella,Provincia,BI,096,Biella,175585
+ITC18,1,006,006,Alessandria,Provincia,AL,006,Alessandria,421284
+ITC17,1,005,005,Asti,Provincia,AT,005,Asti,214638
+ITC16,1,004,004,Cuneo,Provincia,CN,004,Cuneo,587098
+ITC15,1,003,003,Novara,Provincia,NO,003,Novara,369018
+ITC12,1,002,002,Vercelli,Provincia,VC,002,Vercelli,170911
+ITC11,1,201,201,Torino,Citta metropolitana,TO,001,Torino,2259523
+ITC20,2,007,007,Valle d'Aosta/VallÃ©e d'Aoste,Provincia,AO,007,Valle d'Aosta/VallÃ©e d'Aoste,125666
+ITC47,3,017,017,Brescia,Provincia,BS,017,Brescia,1265954
+ITC46,3,016,016,Bergamo,Provincia,BG,016,Bergamo,1114590
+ITC4C,3,215,215,Milano,Citta metropolitana,MI,015,Milano,3250315
+ITC44,3,014,014,Sondrio,Provincia,SO,014,Sondrio,181095
+ITC42,3,013,013,Como,Provincia,CO,013,Como,599204
+ITC41,3,012,012,Varese,Provincia,VA,012,Varese,890768
+ITC4D,3,108,108,Monza e della Brianza,Provincia,MB,108,Monza e della Brianza,873935
+ITC49,3,098,098,Lodi,Provincia,LO,098,Lodi,230198
+ITC43,3,097,097,Lecco,Provincia,LC,097,Lecco,337380
+ITC4B,3,020,020,Mantova,Provincia,MN,020,Mantova,412292
+ITC4A,3,019,019,Cremona,Provincia,CR,019,Cremona,358955
+ITC48,3,018,018,Pavia,Provincia,PV,018,Pavia,545888
+ITH20,4,022,022,Trento,Provincia autonoma,TN,022,Trento,541098
+ITH10,4,021,021,Bolzano/Bozen,Provincia autonoma,BZ,021,Bolzano/Bozen,531178
+ITH37,5,029,029,Rovigo,Provincia,RO,029,Rovigo,234937
+ITH36,5,028,028,Padova,Provincia,PD,028,Padova,937908
+ITH35,5,227,227,Venezia,Citta metropolitana,VE,027,Venezia,853338
+ITH34,5,026,026,Treviso,Provincia,TV,026,Treviso,887806
+ITH33,5,025,025,Belluno,Provincia,BL,025,Belluno,202950
+ITH32,5,024,024,Vicenza,Provincia,VI,024,Vicenza,862418
+ITH31,5,023,023,Verona,Provincia,VR,023,Verona,926497
+ITH42,6,-,030,Udine,UnitÃ  non amministrativa,UD,030,Udine,528791
+ITH41,6,-,093,Pordenone,UnitÃ  non amministrativa,PN,093,Pordenone,312533
+ITH44,6,-,032,Trieste,UnitÃ  non amministrativa,TS,032,Trieste,234493
+ITH43,6,-,031,Gorizia,UnitÃ  non amministrativa,GO,031,Gorizia,139403
+ITC34,7,011,011,La Spezia,Provincia,SP,011,La Spezia,219556
+ITC33,7,210,210,Genova,Citta metropolitana,GE,010,Genova,841180
+ITC32,7,009,009,Savona,Provincia,SV,009,Savona,276064
+ITC31,7,008,008,Imperia,Provincia,IM,008,Imperia,213840
+ITH59,8,099,099,Rimini,Provincia,RN,099,Rimini,339017
+ITH58,8,040,040,ForlÃ¬-Cesena,Provincia,FC,040,ForlÃ¬-Cesena,394627
+ITH57,8,039,039,Ravenna,Provincia,RA,039,Ravenna,389456
+ITH56,8,038,038,Ferrara,Provincia,FE,038,Ferrara,345691
+ITH55,8,237,237,Bologna,Citta metropolitana,BO,037,Bologna,1014619
+ITH54,8,036,036,Modena,Provincia,MO,036,Modena,705393
+ITH53,8,035,035,Reggio nell'Emilia,Provincia,RE,035,Reggio nell'Emilia,531891
+ITH52,8,034,034,Parma,Provincia,PR,034,Parma,451631
+ITH51,8,033,033,Piacenza,Provincia,PC,033,Piacenza,287152
+ITI15,9,100,100,Prato,Provincia,PO,100,Prato,257716
+ITI1A,9,053,053,Grosseto,Provincia,GR,053,Grosseto,221629
+ITI19,9,052,052,Siena,Provincia,SI,052,Siena,267197
+ITI18,9,051,051,Arezzo,Provincia,AR,051,Arezzo,342654
+ITI17,9,050,050,Pisa,Provincia,PI,050,Pisa,419037
+ITI16,9,049,049,Livorno,Provincia,LI,049,Livorno,334832
+ITI14,9,248,248,Firenze,Citta metropolitana,FI,048,Firenze,1011349
+ITI13,9,047,047,Pistoia,Provincia,PT,047,Pistoia,292473
+ITI12,9,046,046,Lucca,Provincia,LU,046,Lucca,387876
+ITI11,9,045,045,Massa-Carrara,Provincia,MS,045,Massa-Carrara,194878
+ITI22,10,055,055,Terni,Provincia,TR,055,Terni,225633
+ITI21,10,054,054,Perugia,Provincia,PG,054,Perugia,656382
+ITI33,11,043,043,Macerata,Provincia,MC,043,Macerata,314178
+ITI32,11,042,042,Ancona,Provincia,AN,042,Ancona,471228
+ITI31,11,041,041,Pesaro e Urbino,Provincia,PU,041,Pesaro e Urbino,358886
+ITI35,11,109,109,Fermo,Provincia,FM,109,Fermo,173800
+ITI34,11,044,044,Ascoli Piceno,Provincia,AP,044,Ascoli Piceno,207179
+ITI45,12,060,060,Frosinone,Provincia,FR,060,Frosinone,489083
+ITI44,12,059,059,Latina,Provincia,LT,059,Latina,575254
+ITI43,12,258,258,Roma,Citta metropolitana,RM,058,Roma,4342212
+ITI42,12,057,057,Rieti,Provincia,RI,057,Rieti,155503
+ITI41,12,056,056,Viterbo,Provincia,VT,056,Viterbo,317030
+ITF14,13,069,069,Chieti,Provincia,CH,069,Chieti,385588
+ITF13,13,068,068,Pescara,Provincia,PE,068,Pescara,318909
+ITF12,13,067,067,Teramo,Provincia,TE,067,Teramo,308052
+ITF11,13,066,066,L'Aquila,Provincia,AQ,066,L'Aquila,299031
+ITF21,14,094,094,Isernia,Provincia,IS,094,Isernia,84379
+ITF22,14,070,070,Campobasso,Provincia,CB,070,Campobasso,221238
+ITF34,15,064,064,Avellino,Provincia,AV,064,Avellino,418306
+ITF33,15,263,263,Napoli,Citta metropolitana,NA,063,Napoli,3084890
+ITF32,15,062,062,Benevento,Provincia,BN,062,Benevento,277018
+ITF31,15,061,061,Caserta,Provincia,CE,061,Caserta,922965
+ITF35,15,065,065,Salerno,Provincia,SA,065,Salerno,1098513
+ITF48,16,110,110,Barletta-Andria-Trani,Provincia,BT,110,Barletta-Andria-Trani,390011
+ITF45,16,075,075,Lecce,Provincia,LE,075,Lecce,795134
+ITF44,16,074,074,Brindisi,Provincia,BR,074,Brindisi,392975
+ITF43,16,073,073,Taranto,Provincia,TA,073,Taranto,576756
+ITF47,16,272,272,Bari,Citta metropolitana,BA,072,Bari,1251994
+ITF46,16,071,071,Foggia,Provincia,FG,071,Foggia,622183
+ITF52,17,077,077,Matera,Provincia,MT,077,Matera,197909
+ITF51,17,076,076,Potenza,Provincia,PZ,076,Potenza,364960
+ITF64,18,102,102,Vibo Valentia,Provincia,VV,102,Vibo Valentia,160073
+ITF62,18,101,101,Crotone,Provincia,KR,101,Crotone,174980
+ITF65,18,280,280,Reggio Calabria,Citta metropolitana,RC,080,Reggio Calabria,548009
+ITF63,18,079,079,Catanzaro,Provincia,CZ,079,Catanzaro,358316
+ITF61,18,078,078,Cosenza,Provincia,CS,078,Cosenza,705753
+ITG12,19,282,282,Palermo,Citta metropolitana,PA,082,Palermo,1252588
+ITG11,19,081,081,Trapani,Libero consorzio di comuni,TP,081,Trapani,430492
+ITG19,19,089,089,Siracusa,Libero consorzio di comuni,SR,089,Siracusa,399224
+ITG18,19,088,088,Ragusa,Libero consorzio di comuni,RG,088,Ragusa,320893
+ITG17,19,287,287,Catania,Citta metropolitana,CT,087,Catania,1107702
+ITG16,19,086,086,Enna,Libero consorzio di comuni,EN,086,Enna,164788
+ITG15,19,085,085,Caltanissetta,Libero consorzio di comuni,CL,085,Caltanissetta,262458
+ITG14,19,084,084,Agrigento,Libero consorzio di comuni,AG,084,Agrigento,434870
+ITG13,19,283,283,Messina,Citta metropolitana,ME,083,Messina,626876
+-,20,111,111,Sud Sardegna,Provincia,SU,111,Sud Sardegna,350725
+ITG28,20,095,095,Oristano,Provincia,OR,095,Oristano,157707
+ITG27,20,292,292,Cagliari,Citta metropolitana,CA,092,Cagliari,431038
+ITG26,20,091,091,Nuoro,Provincia,NU,091,Nuoro,208550
+ITG25,20,090,090,Sassari,Provincia,SS,090,Sassari,491571

@@ -1,0 +1,300 @@
+<Layout worldFileMap="{451fe014-b734-488e-a6d0-41ae4f0671e6}" name="complessivo" units="mm" printResolution="300">
+ <Snapper tolerance="5" snapToGrid="0" snapToItems="1" snapToGuides="1"/>
+ <Grid resUnits="mm" resolution="10" offsetUnits="mm" offsetX="0" offsetY="0"/>
+ <PageCollection>
+  <symbol name="" type="fill" alpha="1" clip_to_extent="1" force_rhr="0">
+   <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+    <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+    <prop v="255,255,255,255" k="color"/>
+    <prop v="miter" k="joinstyle"/>
+    <prop v="0,0" k="offset"/>
+    <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+    <prop v="MM" k="offset_unit"/>
+    <prop v="35,35,35,255" k="outline_color"/>
+    <prop v="no" k="outline_style"/>
+    <prop v="0.26" k="outline_width"/>
+    <prop v="MM" k="outline_width_unit"/>
+    <prop v="solid" k="style"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option name="name" value="" type="QString"/>
+      <Option name="properties"/>
+      <Option name="type" value="collection" type="QString"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem type="65638" positionLock="false" visibility="1" outlineWidthM="0.3,mm" excludeFromExports="0" uuid="{0ea1fedd-595e-46cf-b542-0036507fcb92}" size="297,210,mm" opacity="1" templateUuid="{0ea1fedd-595e-46cf-b542-0036507fcb92}" background="true" referencePoint="0" positionOnPage="0,0,mm" blendMode="0" zValue="0" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" frame="false" position="0,0,mm">
+   <FrameColor green="0" alpha="255" blue="0" red="0"/>
+   <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option name="name" value="" type="QString"/>
+      <Option name="properties"/>
+      <Option name="type" value="collection" type="QString"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+   <symbol name="" type="fill" alpha="1" clip_to_extent="1" force_rhr="0">
+    <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+     <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+     <prop v="255,255,255,255" k="color"/>
+     <prop v="miter" k="joinstyle"/>
+     <prop v="0,0" k="offset"/>
+     <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+     <prop v="MM" k="offset_unit"/>
+     <prop v="35,35,35,255" k="outline_color"/>
+     <prop v="no" k="outline_style"/>
+     <prop v="0.26" k="outline_width"/>
+     <prop v="MM" k="outline_width_unit"/>
+     <prop v="solid" k="style"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option name="name" value="" type="QString"/>
+       <Option name="properties"/>
+       <Option name="type" value="collection" type="QString"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem type="65641" labelText="&lt;a href>www.pigrecoinfinito.com&lt;/a>" positionLock="false" visibility="1" outlineWidthM="0.3,mm" excludeFromExports="0" valign="32" htmlState="1" marginX="0" uuid="{8bf299d9-827f-478e-9f61-eb2372c1d129}" size="48.6094,5.10988,mm" opacity="1" halign="8" templateUuid="{8bf299d9-827f-478e-9f61-eb2372c1d129}" background="false" referencePoint="0" positionOnPage="287.408,155.581,mm" blendMode="0" marginY="0" zValue="47" groupUuid="" itemRotation="270" frameJoinStyle="miter" id="" frame="false" position="287.408,155.581,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="" description="Trueno,10,-1,5,50,0,0,0,0,0"/>
+  <FontColor green="0" alpha="255" blue="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem type="65641" labelText="&lt;a href>www.qgis.org&lt;/a>" positionLock="false" visibility="1" outlineWidthM="0.3,mm" excludeFromExports="0" valign="32" htmlState="1" marginX="0" uuid="{e8c2bcf1-eee9-4a4b-b8e3-6a86cc0ccde4}" size="26.5656,5.10988,mm" opacity="1" halign="8" templateUuid="{e8c2bcf1-eee9-4a4b-b8e3-6a86cc0ccde4}" background="false" referencePoint="0" positionOnPage="5.3937,148.026,mm" blendMode="0" marginY="0" zValue="26" groupUuid="" itemRotation="270" frameJoinStyle="miter" id="" frame="false" position="5.3937,148.026,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="" description="Trueno,10,-1,5,50,0,0,0,0,0"/>
+  <FontColor green="0" alpha="255" blue="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem type="65641" labelText="DATI: &lt;a href>https://github.com/pcm-dpc/COVID-19/blob/master/dati-province/dpc-covid19-ita-province.csv&lt;/a>" positionLock="false" visibility="1" outlineWidthM="0.3,mm" excludeFromExports="0" valign="32" htmlState="1" marginX="0" uuid="{fc25a82f-da09-4725-96cd-eefeb0dbee10}" size="160.486,5.36964,mm" opacity="1" halign="1" templateUuid="{fc25a82f-da09-4725-96cd-eefeb0dbee10}" background="false" referencePoint="0" positionOnPage="7.34792,197.752,mm" blendMode="0" marginY="0" zValue="25" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" frame="false" position="7.34792,197.752,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="Light Italic" description="Trueno,9,-1,5,25,0,0,0,0,0,Light Italic"/>
+  <FontColor green="0" alpha="255" blue="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem type="65640" northOffset="0" positionLock="false" visibility="1" northMode="0" outlineWidthM="0.3,mm" excludeFromExports="0" anchorPoint="0" pictureHeight="15.8259" resizeMode="3" uuid="{c047feed-eeb0-47a7-8e47-b9591a3d1198}" size="61.62,15.8259,mm" opacity="1" templateUuid="{c047feed-eeb0-47a7-8e47-b9591a3d1198}" background="false" mapUuid="" referencePoint="0" positionOnPage="51.2753,165.266,mm" blendMode="0" svgFillColor="255,255,255,255" zValue="24" svgBorderWidth="0.2" file="./imgs/numeroVerde.png" pictureRotation="0" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" pictureWidth="61.62" frame="false" svgBorderColor="0,0,0,255" position="51.2753,165.266,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem type="65641" labelText="Fonte dati: PCM-DPC - ISTAT 2019" positionLock="false" visibility="1" outlineWidthM="0.3,mm" excludeFromExports="0" valign="128" htmlState="0" marginX="0" uuid="{c2ce74b8-88f3-4b22-829f-8c87fc1819c6}" size="64.6323,7.06531,mm" opacity="1" halign="1" templateUuid="{c2ce74b8-88f3-4b22-829f-8c87fc1819c6}" background="false" referencePoint="0" positionOnPage="187.359,193.372,mm" blendMode="0" marginY="0" zValue="15" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" frame="false" position="187.359,193.372,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="Bold" description="Trueno,10,-1,5,75,0,0,0,0,0,Bold"/>
+  <FontColor green="0" alpha="255" blue="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem type="65640" northOffset="0" positionLock="false" visibility="1" northMode="0" outlineWidthM="0.3,mm" excludeFromExports="0" anchorPoint="0" pictureHeight="24.0221" resizeMode="3" uuid="{21ab2d88-891e-435a-944c-dde637560e08}" size="36.2598,24.0221,mm" opacity="1" templateUuid="{21ab2d88-891e-435a-944c-dde637560e08}" background="false" mapUuid="" referencePoint="0" positionOnPage="253.703,10.2828,mm" blendMode="0" svgFillColor="255,255,255,255" zValue="14" svgBorderWidth="0.2" file="./imgs/2000px-Sicilian_Flag.svg.png" pictureRotation="0" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" pictureWidth="36.2598" frame="false" svgBorderColor="0,0,0,255" position="253.703,10.2828,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem type="65641" labelText="800 45 87 87" positionLock="false" visibility="1" outlineWidthM="0.3,mm" excludeFromExports="0" valign="128" htmlState="0" marginX="0" uuid="{900d10b3-1698-4f25-9b4d-2d052e1431ae}" size="47.4789,9.4705,mm" opacity="1" halign="4" templateUuid="{900d10b3-1698-4f25-9b4d-2d052e1431ae}" background="false" referencePoint="0" positionOnPage="60.4791,169.078,mm" blendMode="0" marginY="0" zValue="12" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" frame="false" position="60.4791,169.078,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="" description="Trueno,20,-1,5,50,0,0,0,0,0"/>
+  <FontColor green="128" alpha="255" blue="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem type="65641" labelText="Realizzato con QGIS e DataPlotly 3.5 / by Totò FIANDACA" positionLock="false" visibility="1" outlineWidthM="0.3,mm" excludeFromExports="0" valign="128" htmlState="0" marginX="0" uuid="{1be28a25-94b6-4d7e-b35a-9086e9235986}" size="107.11,7.06531,mm" opacity="1" halign="1" templateUuid="{1be28a25-94b6-4d7e-b35a-9086e9235986}" background="false" referencePoint="0" positionOnPage="187.359,198.56,mm" blendMode="0" marginY="0" zValue="11" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" frame="false" position="187.359,198.56,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="Bold" description="Trueno,10,-1,5,75,0,0,0,0,0,Bold"/>
+  <FontColor green="0" alpha="255" blue="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem type="65641" labelText="- Pandemia COVID-19 -" positionLock="false" visibility="1" outlineWidthM="0.3,mm" excludeFromExports="0" valign="128" htmlState="0" marginX="0" uuid="{04d35298-769b-4595-8422-06124a6473c2}" size="99.1965,14.1306,mm" opacity="1" halign="4" templateUuid="{04d35298-769b-4595-8422-06124a6473c2}" background="false" referencePoint="0" positionOnPage="97.5014,22.2938,mm" blendMode="0" marginY="0" zValue="6" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" frame="false" position="97.5014,22.2938,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="" description="Trueno,24,-1,5,50,0,0,0,0,0"/>
+  <FontColor green="0" alpha="255" blue="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem positionOnPage="244.46,91.849,mm" itemRotation="0" wmsLegendHeight="25" wmsLegendWidth="50" groupUuid="" uuid="{fdba5a66-e4ec-43b0-a3b1-f4b461e1f5c1}" rasterBorderColor="0,0,0,255" map_uuid="{451fe014-b734-488e-a6d0-41ae4f0671e6}" outlineWidthM="0.3,mm" zValue="5" size="37.7,71.7,mm" title="Incremento&amp;Casi Totali&amp;giornaliero" boxSpace="2" frame="false" frameJoinStyle="miter" background="true" blendMode="0" columnCount="1" visibility="1" templateUuid="{fdba5a66-e4ec-43b0-a3b1-f4b461e1f5c1}" rasterBorderWidth="0" equalColumnWidth="0" positionLock="false" symbolWidth="7" resizeToContents="1" referencePoint="0" fontColor="#000000" rasterBorder="1" wrapChar="&amp;" symbolHeight="4" titleAlignment="4" excludeFromExports="0" type="65642" columnSpace="2" splitLayer="0" position="244.46,91.849,mm" legendFilterByAtlas="0" opacity="1" symbolAlignment="1" id="" lineSpacing="1">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <styles>
+   <style name="title" alignment="1" marginBottom="3.5">
+    <styleFont style="" description="Trueno,16,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style name="group" alignment="1" marginTop="3">
+    <styleFont style="" description="Trueno,14,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style name="subgroup" alignment="1" marginTop="3">
+    <styleFont style="" description="Trueno,12,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style name="symbol" alignment="1" marginTop="2.5">
+    <styleFont style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style name="symbolLabel" alignment="1" marginLeft="2" marginTop="2">
+    <styleFont style="" description="Trueno,12,-1,5,50,0,0,0,0,0"/>
+   </style>
+  </styles>
+  <layer-tree-group>
+   <customproperties/>
+   <layer-tree-layer checked="Qt::Checked" name="province_ita_copia" expanded="1" source="./risorse/province_ita.shp|layername=province_ita|subset=&quot;cod_reg&quot; = 19" id="province_ita_5a94b3d8_79d1_44f3_8379_620d95ee5c48" providerKey="ogr">
+    <customproperties>
+     <property key="legend/label-0" value="Incremento"/>
+     <property key="legend/title-label" value="Province"/>
+    </customproperties>
+   </layer-tree-layer>
+   <custom-order enabled="0">
+    <item>province_ita_5a94b3d8_79d1_44f3_8379_620d95ee5c48</item>
+   </custom-order>
+  </layer-tree-group>
+ </LayoutItem>
+ <LayoutItem type="65641" labelText="Regione Siciliana" positionLock="false" visibility="1" outlineWidthM="0.3,mm" excludeFromExports="0" valign="128" htmlState="0" marginX="0" uuid="{96e36ea5-3bbb-4440-9401-602c2fd7eb16}" size="260.003,18.6524,mm" opacity="1" halign="4" templateUuid="{96e36ea5-3bbb-4440-9401-602c2fd7eb16}" background="false" referencePoint="0" positionOnPage="17.098,6.7827,mm" blendMode="0" marginY="0" zValue="3" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" frame="false" position="17.098,6.7827,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="" description="Trueno,40,-1,5,50,0,0,0,0,0"/>
+  <FontColor green="0" alpha="255" blue="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem type="65640" northOffset="0" positionLock="false" visibility="1" northMode="0" outlineWidthM="0.3,mm" excludeFromExports="0" anchorPoint="0" pictureHeight="24.0221" resizeMode="3" uuid="{d5d3be2a-9214-47db-ae60-b07c3877887e}" size="36.2597,24.0221,mm" opacity="1" templateUuid="{d5d3be2a-9214-47db-ae60-b07c3877887e}" background="false" mapUuid="" referencePoint="0" positionOnPage="7.34792,13.2828,mm" blendMode="0" svgFillColor="255,255,255,255" zValue="2" svgBorderWidth="0.2" file="./imgs/2000px-Sicilian_Flag.svg.png" pictureRotation="0" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" pictureWidth="36.2597" frame="false" svgBorderColor="0,0,0,255" position="7.34792,13.2828,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem type="65639" followPresetName="province_tot" mapFlags="0" positionLock="false" visibility="1" outlineWidthM="0.3,mm" excludeFromExports="0" labelMargin="0,mm" uuid="{451fe014-b734-488e-a6d0-41ae4f0671e6}" size="265.373,156.285,mm" opacity="1" mapRotation="0" followPreset="true" drawCanvasItems="true" templateUuid="{451fe014-b734-488e-a6d0-41ae4f0671e6}" background="true" referencePoint="0" positionOnPage="14.4132,33.9135,mm" blendMode="0" zValue="1" groupUuid="" itemRotation="0" frameJoinStyle="miter" id="" keepLayerSet="false" frame="false" position="14.4132,33.9135,mm">
+  <FrameColor green="0" alpha="255" blue="0" red="0"/>
+  <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymax="4688571.40930989570915699" ymin="4381621.84239367581903934" xmin="1299419.70663562789559364" xmax="1820623.40163441654294729"/>
+  <LayerSet/>
+  <AtlasMap margin="0.10000000000000001" atlasDriven="0" scalingMode="2"/>
+  <labelBlockingItems/>
+ </LayoutItem>
+ <customproperties>
+  <property key="atlasRasterFormat" value="png"/>
+ </customproperties>
+ <Atlas sortFeatures="0" enabled="0" hideCoverage="0" filenamePattern="'output_'||@atlas_featurenumber" pageNameExpression="" filterFeatures="0" coverageLayer=""/>
+</Layout>
