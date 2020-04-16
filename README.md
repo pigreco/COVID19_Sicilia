@@ -31,7 +31,7 @@ Il file di progetto QGIS (`COVID19_3857_provaut.qgs`) utilizza come fonte dati i
 ![](imgs/https.png)
 
 ---
-**NB:** il file di progetto è stato realizzato con [QGIS 3.12 București](https://qgis.org/it/site/) e Plugin [DataPlotly 3.5](https://github.com/ghtmtt/DataPlotly)
+**NB:** il file di progetto è stato realizzato con [QGIS 3.12 București](https://qgis.org/it/site/) e Plugin [DataPlotly 3.6](https://github.com/ghtmtt/DataPlotly)
 
 ---
 
